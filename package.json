@@ -1,0 +1,27 @@
+{
+  "name": "pw-control",
+  "version": "0.1.0",
+  "private": false,
+  "description": "A small CLI wrapper around Playwright for basic browser control via Chrome remote debugging.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hijacker-mills/pw-control.git"
+  },
+  "type": "module",
+  "bin": {
+    "pw-control": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "start": "node dist/cli.js"
+  },
+  "dependencies": {
+    "playwright-core": "^1.41.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "typescript": "^5.4.5"
+  }
+}
