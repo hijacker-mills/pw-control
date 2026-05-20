@@ -1,7 +1,11 @@
 # pw-control
 
 ![Version](https://img.shields.io/badge/version-0.1.0-blue)
-![License](https://img.shields.io/badge/license-UNLICENSED-lightgrey)
+![License](https://img.shields.io/badge/license-MIT-blue)
+
+## License
+
+Released under the [MIT License](LICENSE).
 
 `pw-control` is a powerful CLI wrapper around Playwright (Chrome DevTools Protocol) for browser automation and control. It provides a simple yet flexible interface for interacting with Chrome/Chromium browsers through command-line instructions.
 
